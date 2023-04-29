@@ -27,14 +27,11 @@ header{
 
 .flexbox {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 
-.items {
-    line-height: 50px;
-    width: 100%;
-}
+
 nav {
     height: 100%;
     text-align: center;
