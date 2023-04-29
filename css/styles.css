@@ -55,6 +55,7 @@ button {
     border-radius: 50px;
     font-size: 20px;
     border: none;
+    font-family: 'Lato', sans-serif;
 }
 
 footer {
@@ -90,4 +91,5 @@ p, ul{
 
 html, body {
     min-height: 100vh;
+    font-family: 'Lato', sans-serif;
 }
