@@ -59,6 +59,7 @@ header{
 }
 
 button {
+    color: #fbfbfb;
     background-color: #af599e;
     padding: 10px;
     border-radius: 50px;
@@ -68,6 +69,7 @@ button {
 }
 
 footer {
+    color: #fbfbfb;
     background-color: #af599e;
     height: 100%;
     padding: 20px;
