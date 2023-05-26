@@ -5,6 +5,7 @@
     text-align: center;
     scroll-behavior: smooth;
     line-height: 1.2;
+    width: 100%;
 }
 
 a {
@@ -13,6 +14,7 @@ a {
 }
 
 main {
+    min-width: 50px;
     max-width: 1200px;
     margin: auto;
     padding-left: 20px;
@@ -22,13 +24,23 @@ main {
 header{
     font-size: 20px;
     position: fixed;
-    width: 100%;
     background-color: #fbfbfb;
     box-shadow: 0px 0px 5px #0f0f0f;
 }
 
+header nav div img{
+    width: 80px;
+}
+
 #imagen {
     padding-top: 90px;
+}
+
+#imagen img{
+    min-width: 50px;
+    max-width: 400px;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .flex-nav{
@@ -58,7 +70,7 @@ header{
     padding: 15px;
 }
 
-button {
+.boton button {
     color: #fbfbfb;
     background-color: #af599e;
     padding: 10px;
@@ -66,13 +78,21 @@ button {
     font-size: 20px;
     border: none;
     font-family: 'Lato', sans-serif;
+    width: auto;
+}
+
+.logoContacto img{
+    width: 75px;
 }
 
 footer {
     color: #fbfbfb;
     background-color: #af599e;
-    height: 100%;
     padding: 20px;
+}
+
+footer div img{
+    width: 15px;
 }
 
 #contenido{ 
@@ -99,7 +119,6 @@ p, ul{
 }
 
 html, body {
-    min-height: 100vh;
     background-color: #fbfbfb;
     font-family: 'Lato', sans-serif;
 }
